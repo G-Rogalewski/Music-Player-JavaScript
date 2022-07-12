@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <img src="images/adam.jpeg">
+    <div class="description">
+        <h2>Música</h2>
+        <i>Artista</i>
+    </div>
+    <div class="duration">
+        <div class="bar">
+            <progress value="0" max="1"></progress>
+            <div class="pointer"></div>
+        </div>
+        <div class="time">
+            <p class="start">0:00</p>
+            <p class="end">2:56</p>
+        </div>
+    </div>
+    <div class="player">
+        <i class="fa-solid fa-backward-step previous-button"></i>
+        <i class="fa-solid fa-play play-button"></i>
+        <i class="fa-solid fa-pause pause-button"></i>
+        <i class="fa-solid fa-forward-step next-button"></i>
+    </div>
+    <audio src="musics/Adam Cole - All About Tha (Boom!).mp3"></audio>
+</body>
+</html>
