@@ -41,7 +41,7 @@ h2 {
 
 progress {
     height: 6px;
-    width: 32%;
+    width: 0;
 }
 
 .pointer {
@@ -49,7 +49,7 @@ progress {
     height: 15px;
     background-color: #dfdfdf;
     border-radius: 50%;
-    margin-left: -2px;
+    margin-left: -10px;
 }
 
 .time {
